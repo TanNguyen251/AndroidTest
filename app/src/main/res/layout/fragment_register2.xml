@@ -7,7 +7,7 @@
     <EditText
         android:id="@+id/register2_edit_text_street"
         android:hint="Street"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,7 +18,7 @@
     <EditText
         android:id="@+id/register2_edit_text_city"
         android:hint="City"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
     <EditText
         android:id="@+id/register2_edit_text_country"
         android:hint="Country"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
