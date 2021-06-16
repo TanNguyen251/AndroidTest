@@ -1,0 +1,48 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/register_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/register1_edit_text_name"
+        android:hint="Name"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentTop="true"/>
+
+    <EditText
+        android:id="@+id/register1_edit_text_email"
+        android:hint="Email"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register1_edit_text_name"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/register1_edit_text_phone"
+        android:hint="Phone"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register1_edit_text_email"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/register1_button_send"
+        android:text="Send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register1_edit_text_phone"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+</RelativeLayout>
